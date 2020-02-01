@@ -18,5 +18,7 @@ public class Main {
 
 
 
+        System.out.println("test github build");
+
     }
 }
