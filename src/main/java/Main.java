@@ -11,6 +11,7 @@ public class Main {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
 
 //
+        System.out.println("test github build");
         while (true) {
             Thread.sleep(1000);
             context.getBean(Quoter.class).sayQuote();
@@ -18,7 +19,6 @@ public class Main {
 
 
 
-        System.out.println("test github build");
 
     }
 }
